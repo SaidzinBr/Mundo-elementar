@@ -4,15 +4,15 @@
 		"leaderName": "Embrelyn",
 		"adjective": ["Elementares"],
 		"startBias": ["forest"],
-		"preferredVictoryType": "magia",
+		"preferredVictoryType": "cultural",
 		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
+		"startIntroPart1": "Hello, we are the divine beings sent by Felizmir"
+		"startIntroPart2": "Our mission in the world is to protect humanity, and for that we want to be the main power as well!",
 		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
+		"declaringWar": "you tested the goodness of the divine, you will regret it",
+		"attacked": "Do you want to play? Very funny!",
 		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		"introduction": "the people chosen by Felizmir wish to keep the land in peace until the end of time."
 		
 		"neutralHello": "How are you doing?",
 		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
