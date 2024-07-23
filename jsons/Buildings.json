@@ -7,7 +7,6 @@
 		"happiness": 20,
 		"culture": 10,
 		"science": 10,
-		"maintenance": 80,
 		"isNationalWonder": true,
 		"requiredTech": "Horseback Riding"
 	}
