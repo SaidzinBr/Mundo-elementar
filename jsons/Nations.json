@@ -1,5 +1,5 @@
 [
-{
+	{
 		"name": "Humanos",
 		"leaderName": "Davi Said II",
 		"adjective": ["Humano"],
@@ -37,5 +37,5 @@
 			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
 			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
 		"spyNames": ["Daniella", "Dionatan", "Joana", "Diego", "Gustavo", "Flor", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
-	},
-}
+	}
+]
