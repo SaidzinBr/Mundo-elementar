@@ -1,16 +1,24 @@
 [
 	{
-		"name": "Felizmir Theater."
+		"name": "Bordel",
 		"replaces": "Circus Maximus",
-		"uniqueTo": "Elementares",
+		"uniqueTo": "Humanos",
 		"cost": 480,
-		"happiness": 12,
-		"culture": 20,
-		"science": 12,
-		"maintenance": 96,
+		"happiness": 20,
+		"culture": 10,
+		"science": 10,
+		"maintenance": 80,
 		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
 		"requiredTech": "Horseback Riding"
-
+	},
+	{
+		"name": "Breeders",
+		"replaces": "Aqueduct",
+		"uniqueTo": "Aliens",
+		"cost": 80,
+		"hurryCostModifier": 160,
+		"happiness": 2,
+		"uniques": ["40% of food is carried over after a new citizen is born"],
+		"requiredTech": "Engineering"
 	}
 ]
