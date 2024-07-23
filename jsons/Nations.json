@@ -30,7 +30,7 @@
 		"outerColor": [16,16,16],
 		"innerColor": [255,200,200],
 		"uniqueName": "Ingenuity",
-		"uniques": ["Free [Great Scientist] appears <upon discovering [Writing] technology>", "[Great Scientist] is earned [50]% faster"], "[+1 Gold] from each Trade Route", "Double quantity of [Oil] produced"], "["[+2 Science] from every specialist [in all cities]", "[+2 Science] from every [Great Improvement]","Receive a tech boost when scientific buildings/wonders are built in capital"],
+		"uniques": ["Free [Great Scientist] appears <upon discovering [Writing] technology>", "[Great Scientist] is earned [50]% faster"], "[+1 Gold] from each Trade Route", "Double quantity of [Oil] produced"], "[+2 Science] from every specialist [in all cities]", "[+2 Science] from every [Great Improvement]","Receive a tech boost when scientific buildings/wonders are built in capital"],
 		"cities": ["Jequié","Q'Caucaia","Q'Aracaju","Q'Itaim","Q'Fortaleza","Q'Camargo novo","Q'Poá","Q'Itanhaem","Q'Teoflotoni",
 			"Q'Santa fé do Sul","Q'Suiça","Q'Salt Lake","Q'Noruega","Q'Finlandia","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
 			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
