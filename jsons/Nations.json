@@ -1,10 +1,10 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
+		"name": "Elementares Divinos",
+		"leaderName": "Embrelyn",
+		"adjective": ["Elementares"],
 		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "magia",
 		
 		"startIntroPart1": "We come in peace!",
 		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
