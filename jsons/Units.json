@@ -40,6 +40,73 @@
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
+	},
+	{
+		"name": "Divinos",
+		"unitType": "Archery",
+		"uniqueTo": "Elementares",
+		"replaces": "Archer",
+		"movement": 3,
+		"strength": 25,
+		"rangedStrength": 35,
+		"cost": 10,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"uniques": ["[+70]% Strength <vs [Mounted] units>", 
+			"[+200]% Strength <vs cities> <when attacking>"]
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Manipuladores de água",
+		"unitType": "Melee Water",
+		"uniqueTo": "Elementares",
+		"replaces": "Trireme",
+		"movement": 4,
+		"strength": 53,
+		"cost": 50,
+		"requiredTech": "Sailing",
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"uniques":["[+5] Sight", "Withdraws before melee combat <with [90]% chance>"],
+		"attackSound": "nonmetalhit"
+	},
+		{
+		"name": "Escolhidos",
+		"unitType": "Sword",
+		"uniqueTo": "Elementares",
+		"replaces": "Warrior",
+		"movement": 5,
+		"strength": 18,
+		"cost": 80
+		"upgradesTo": "Swordsman",
+		"uniques":["[+70]% Strength <vs [Mounted] units>",]
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Manipulados",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 15,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"replaces": "Archer",
+		"uniqueTo": "Sábios Do Nexus",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
 	}
+		{
+		"name": "Demônios",
+		"unitType": "Sword",
+		"uniqueTo": "Sábios Do Nexus",
+		"replaces": "Warrior",
+		"movement": 1,
+		"strength": 30,
+		"cost": 60,
+		"obsoleteTech": "Metal Casting",
+		"promotions": ["[Jaguar] ability","Woodsman"],
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
 ]
-		
