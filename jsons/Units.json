@@ -1,17 +1,41 @@
 [
 	{
-		"name": "wizards",
-		"unitType": "Ranged",
-		"uniqueTo": "Elementares",
-		"replaces": "Machine Gun",
+		"name": "Bob",
+		"unitType": "scout",
+		"uniqueTo": "Humanos",
+		"replaces": "scout",
 		"movement": 2,
+		"strength": 15,
+		"range": 1,
+		"cost": 25,
+		"promotions": ["Ignore terrain cost"],
+	},
+	{
+		"name": "Pietra",
+		"unitType": "Sword",
+		"uniqueTo": "Humanos",
+		"replaces": "Warrior",
+		"movement": 3,
 		"strength": 90,
-		"rangedStrength": 90,
-		"range": 2,
-		"cost": 800,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
-]
+		"cost": 40,
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		
+		"name": "Chico",
+		"unitType": "Mounted",
+		"uniqueTo": "Humanos",
+		"replaces": "Horseman",
+		"movement": 5,
+		"strength": 24,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"promotions": ["Great Generals I"],
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+		
