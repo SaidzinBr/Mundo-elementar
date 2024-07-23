@@ -3,7 +3,7 @@
 		"name": "Elementares Divinos",
 		"leaderName": "Embrelyn",
 		"adjective": ["Elementares"],
-		"startBias": ["Snow"],
+		"startBias": ["forest"],
 		"preferredVictoryType": "magia",
 		
 		"startIntroPart1": "We come in peace!",
