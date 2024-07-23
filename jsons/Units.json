@@ -1,9 +1,9 @@
 [
 	{
 		"name": "Bob",
-		"unitType": "scout",
+		"unitType": "Melee",
 		"uniqueTo": "Humanos",
-		"replaces": "scout",
+		"replaces": "beater",
 		"movement": 2,
 		"strength": 15,
 		"range": 1,
