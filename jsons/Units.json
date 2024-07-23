@@ -1,13 +1,16 @@
 [
 	{
 		"name": "Bob",
-		"unitType": "Melee",
+		"unitType": "Sword",
+		"replaces": "Spearman",
 		"uniqueTo": "Humanos",
-		"replaces": "beater",
 		"movement": 2,
 		"strength": 15,
-		"range": 1,
 		"cost": 25,
+		"requiredTech": "Bronze Working",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Pietra",
