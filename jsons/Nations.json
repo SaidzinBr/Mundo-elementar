@@ -31,11 +31,77 @@
 		"innerColor": [255,200,200],
 		"uniqueName": "Evolutivos",
 		"uniques":["Free [Great Scientist] appears <upon discovering [Writing] technology>", "[+20]% Production when constructing [All] wonders [in all cities]", 
-			"[+1 Gold] from each Trade Route", "Double quantity of [Oil] produced"]
+			"[+1 Gold] from each Trade Route", "Double quantity of [Oil] produced", "[+1 Production] from every [Strategic resource]"]
 		"cities": ["Jequié","Q'Caucaia","Q'Aracaju","Q'Itaim","Q'Fortaleza","Q'Camargo novo","Q'Poá","Q'Itanhaem","Q'Teoflotoni",
 			"Q'Santa fé do Sul","Q'Suiça","Q'Salt Lake","Q'Noruega","Q'Finlandia","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
 			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
 			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
 		"spyNames": ["Daniella", "Dionatan", "Joana", "Diego", "Gustavo", "Flor", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
-]
+	{
+		"name": "Sábios do Nexus",
+		"leaderName": "Cháos",
+		"adjective": ["Sábios"],
+		"preferredVictoryType":"Domination",
+		"personality": "Cháos",
+
+		"startIntroPart1": "O mundo estava injusto, mas graças ao dom mandado por Razorman, agora os sábios do Nexus tem força o suficiente para lutar contra as forças injustas de Felizmir, com a liderança de Cháos tudo é possivel.",
+		"startIntroPart2": "Filhos de Razorman,usam do poder do Caos para manipular e destruir civilizações inteiras",
+
+		"declaringWar": "Você testou o poder do Caos, agora sofrerá as consequências.",
+		"attacked": "O caos vence, Razorman vence.",
+		"defeated": "Não fomos dignos da vitória.",
+		"introduction": "Olá, sou Cháos, juntesse a mim e a Razorman ou enfrete-nos",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		
+        "outerColor": [9, 112, 84],
+        "innerColor": [255,255,255],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Caos",
+		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [50]% faster",
+			"[-50]% City-State Influence degradation", "Receive triple Gold from Barbarian encampments and pillaging Cities", "[+30]% Strength <vs [City-States]>"]
+		"cities": ["Reino de KingsCháos","Terras de Uldorn","Caverna de Putridhaven","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
+			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
+			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos",
+			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis",
+			"Patras","Lamia","Nafplion","Apolyton"],
+        "spyNames": ["Cháos", "Uldorn", "Alexa", "Drakenoir", "Bipolis", "Asinus", "Paranus", "Anthea", "Aeneas", "Leander"]
+    },
+	{
+		"name": "Elementares",
+		"leaderName": "Elpízo",
+		"adjective": ["Elementar"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Elpízo",
+
+        "startIntroPart1": "Seres divinos e escolhidos por Felizmir para comandar e proteger a terra para toda a eternidade!",
+        "startIntroPart2": "Ótimo, você foi escolhido por Felizmir, agora tem uma missão sagrada e divina, ira conseguir ser a sociedade maior no mundo perfeito?",
+
+        "declaringWar": "Você teve outra opção, agora enfrente os poderes de Felizmir.",
+		"attacked": "Fool! I will disembowel you all!",
+		"defeated": "You have proven to be a cunning and competent adversary. I congratulate you on your victory.",
+		"introduction": "Olá, sou Elpízo, o último filho de Felizmir, é um prazer te conhecer.",
+		"neutralHello": "How are you today?",
+		"hateHello": "Oh. It's you?",
+		"tradeRequest": "My friend, do you think you can accept this request?",
+
+        "outerColor": [9, 112, 84],
+        "innerColor": [255,255,255],
+
+		"favoredReligion": "Taoism",
+		"uniqueName": "Dons Divinos",
+		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [50]% faster", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
+		"Gain [90] Influence with a [Great Person] gift to a City-State", "When declaring friendship, both parties gain a [10]% boost to great person generation",
+		"[+20]% Strength <when fighting units from a Civilization with more Cities than you>"],
+		"cities": ["Terras de Agápi","Reino de Galindan","Terras de Jurinyn","Terras de Milianel","Reino de Hamirar","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
+			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
+        "spyNames": ["Titus", "Morgey", "Asinus", "Paranus", "Embrelyn", "Agápi", "Zhao", "Wu", "Zhou", "Sun"]
+
+    },
