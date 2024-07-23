@@ -6,8 +6,86 @@
 		"cost": 480,
 		"happiness": 20,
 		"culture": 10,
-		"science": 10,
+		"science": 18,
 		"isNationalWonder": true,
 		"requiredTech": "Horseback Riding"
-	}
+	},
+		{
+		"name": "Santuário de Razorman",
+        "replaces": "Monument",
+		"uniqueTo": "Sábios do Nexus",
+		"culture": 5,
+		"faith": 2,
+		"cost": 15,
+		"hurryCostModifier": 10,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"] //"Hidden when religion is disabled"
+	},
+		{
+		"name": "Santuário de Felizmir",
+        "replaces": "Monument",
+		"uniqueTo": "Elementares",
+		"culture": 8,
+		"faith": 2,
+		"cost": 20,
+		"hurryCostModifier": 200,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"] //"Hidden when religion is disabled"
+	},
+	{
+		"name": "Muralhas do Caos",
+		"replaces": "Walls",
+		"cost": 80,
+		"uniqueTo": "Sábios do Nexus",
+		"cityStrength": 15,
+		"cityHealth": 200,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+		{
+		"name": "Ataláias",
+		"replaces": "Barracks",
+		"uniqueTo": "Elementares",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[-40]% Culture cost of natural border growth [in this city]","[-35]% Gold cost of acquiring tiles [in this city]",
+			"New [Military] units start with [30] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+		},
+	{
+		"name": "Casa de Agápi",
+		"replaces": "Temple",
+		"uniqueTo": "Elementares",
+		"maintenance": 0,
+		"uniques": ["Doubles Gold given to enemy if city is captured"],
+		"faith": 2,
+		"happiness": 2,
+		"requiredBuilding": "Shrine",
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
+	},
+		{
+		"name": "Feira",
+		"replaces": "Market",
+		"uniqueTo": "Humanos",
+		"gold": 5,
+		"specialistSlots": {"Merchant": 3},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 40},
+		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
+			"[+5 Gold] from [Oil] tiles [in this city]", "[+5 Gold] from [Oasis] tiles [in this city]"],
+		"requiredTech": "Currency"
+	},
+		{
+		"name": "Lar dos Manipulados",
+		"replaces": "Barracks",
+		"uniqueTo": "Sábios do Nexus",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[-55]% Culture cost of natural border growth [in this city]","[-80]% Gold cost of acquiring tiles [in this city]",
+			"New [Military] units start with [85] Experience [in this city]", "Destroyed when the city is captured",
+			"[+15]% Strength <for [All] units> <vs cities> <when attacking>"]
+		"requiredTech": "Bronze Working"
+	},
 ]
